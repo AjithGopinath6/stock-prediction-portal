@@ -1,5 +1,7 @@
 import React from "react";
 import Button from "./Button";
+import Header from "./Header";
+import Footer from "./Footer";
 
 const main = () => {
   return (
@@ -10,7 +12,7 @@ const main = () => {
             <p className="text-light lead">
                 Stock prediction involves forecasting the future price of a company's stock based on historical data, market trends, and various financial indicators. Techniques such as machine learning, technical analysis, and fundamental analysis are commonly used to identify patterns and make informed predictions. While no method guarantees accuracy due to market volatility and external factors, stock prediction models can help investors make better decisions by estimating potential price movements.
             </p>
-            <Button text="LogIn" class = "btn-outline-info"/>
+            <Button text="LogIn" class = "btn-outline-info" url="/login"/>
 
         </div>
 
