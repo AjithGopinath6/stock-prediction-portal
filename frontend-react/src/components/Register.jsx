@@ -69,8 +69,8 @@ const Register = () => {
           {success && <div className="alert alert-success">Registration successful!</div>}
           {errors.non_field_errors && <div className="alert alert-danger">{errors.non_field_errors}</div>}
 
-          {loading ?(
-            <button type="submit" className="btn btn-info d-block mx-auto" >Please wait...</button>
+          {loading ? (
+            <button type="submit" className="btn btn-info d-block mx-auto" disabled >Please wait...</button>
           ):(
               <button type="submit" className="btn btn-info d-block mx-auto" >Register</button>
           )}
